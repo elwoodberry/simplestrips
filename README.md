@@ -21,3 +21,12 @@ $ express --view=pug --css=sass --git _project
 
 This handles:
 1.
+
+#### Modifications
+1. Added 'layouts' and 'partials' directory to the views directory.
+1. Encapsulated the 'head' into its own pug file.
+1. Installed BootStrap4 via NPM
+1. Installed jQuery via NPM
+1. Installed Popper via NPM
+1. Created an alias directory for node modules
+1.

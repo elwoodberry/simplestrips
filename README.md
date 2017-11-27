@@ -1,27 +1,28 @@
 # Simple Strips
 The Simple Strips vendor management production application.  
-
-[Launch](https://google.com) the prototype development application.  
-See full UI/UX [documentation](https://github.com/elwoodberry/ux/tree/master/portfolio/vendor-management) on this application.  
-See [Task Back Log](backlog.md) for list of tasks that have not been prioritized in a specific sprint.  
-
+---
+* [Launch](https://simplestrips.com) the prototype development application.  
+* See full UI/UX [documentation](https://github.com/elwoodberry/ux/tree/master/portfolio/vendor-management) on this application.  
+* See [Task Back Log](backlog.md) for list of tasks that have not been prioritized in a specific sprint.  
+---
 
 
 ## Outline
-1. Technology Stack
-1. Environment
-
+1. [Technology Stack](#technology-stack)
+1. [Environment](#environment)
+---
 
 ## Technology Stack
 
 ### Node
 Local System
 
-Linux (Unbuntu)
+Linux (Ubuntu)
 
 ### Git
 Use GIT to clone the repository onto the server(local or remote.).
 ```
+$ npm install -g git
 ```
 
 ### Express

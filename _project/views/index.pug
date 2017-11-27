@@ -1,8 +1,20 @@
-extends layouts/default.pug
+extends layouts/auth.pug
 
 block content
 
-  h1 #{title}
-  h2 #{description}
-  h4 #{canonical}
-  h5 #{twitterImage}
+  form(method="POST" action="/dashboard")
+
+    small(id="msgs" class="error") The username and/or password provided did not match any records in our system.
+
+    .form-group(id="form-username")
+      label(for="username") Email address
+      input(type="email" class="form-control" id="username" aria-describedby="username" placeholder="Enter Username...")
+
+    .form-group(id="form-password")
+      label(for="password") Password
+      input(type="password" class="form-control" id="password" placeholder="Enter Password...")
+
+    a(id="forgot-password" href="/forgot") Having Trouble Signing In?
+
+    .form-group(id="form-submit")
+      button(id="login-submit" type="submit" class="btn btn-primary") Sign In

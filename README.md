@@ -1,17 +1,28 @@
 # Simple Strips
+The Simple Strips vendor management production application.  
+
 [Launch](https://google.com) the prototype development application.  
 See full UI/UX [documentation](https://github.com/elwoodberry/ux/tree/master/portfolio/vendor-management) on this application.  
+See [Task Back Log](backlog.md) for list of tasks that have not been prioritized in a specific sprint.  
 
-The documentation and prototypes for the Simple Strips management application.
+
 
 ## Outline
 1. Technology Stack
-
+1. Environment
 
 
 ## Technology Stack
 
 ### Node
+Local System
+
+Linux (Unbuntu)
+
+### Git
+Use GIT to clone the repository onto the server(local or remote.).
+```
+```
 
 ### Express
 Using the [Express Application Generator](https://expressjs.com/en/starter/generator.html), the baseline application was created using the following options:
@@ -20,13 +31,4 @@ $ express --view=pug --css=sass --git _project
 ```
 
 This handles:
-1.
-
-#### Modifications
-1. Added 'layouts' and 'partials' directory to the views directory.
-1. Encapsulated the 'head' into its own pug file.
-1. Installed BootStrap4 via NPM
-1. Installed jQuery via NPM
-1. Installed Popper via NPM
-1. Created an alias directory for node modules
 1.
